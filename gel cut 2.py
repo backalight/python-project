@@ -1,4 +1,5 @@
-
+#Little project to count how many roll or/and sheet of color filter you need for your gig
+#petit projet pour compter le nombre de rouleaux et/ou feuilles de gels necessaires pour un spectacle.
 # entree nombre et ref gel
 RefGel = []
 ToTalfeuille = []
@@ -7,8 +8,8 @@ n = eval(input("combien de ref?"))
 for x in range(n):
     z = eval(input("l pour lee:"))
     RefGel.append(z)
-f = 6466  # feuille
-r = 92964  # rouleau
+f = 6466  # feuille Lee filter
+r = 92964  # rouleau Lee filter
 v = 0  # valeur pour avancement dans list RefGel
 
 
